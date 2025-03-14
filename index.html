@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="corpoCalc">
+        <div id="tela">
+            <p id="conta">0</p>
+            <h2 id="resultado">0</h2>
+        </div>
+        <table id="botoes">
+            <tr>
+                <td><button onclick="limparDisplay()">CE</button></td>
+                <td><button onclick="apagar()">C</button></td>
+                <td><button onclick="displayConta('%')">%</button></td>
+                <td><button onclick="displayConta('/')" class="operador">÷</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayConta('7')" >7</button></td>
+                <td><button onclick="displayConta('8')">8</button></td>
+                <td><button onclick="displayConta('9')">9</button></td>
+                <td><button onclick="displayConta('*')" class="operador">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayConta('4')">4</button></td>
+                <td><button onclick="displayConta('5')">5</button></td>
+                <td><button onclick="displayConta('6')">6</button></td>
+                <td><button onclick="displayConta('-')" class="operador">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayConta('1')">1</button></td>
+                <td><button onclick="displayConta('2')">2</button></td>
+                <td><button onclick="displayConta('3')">3</button></td>
+                <td><button onclick="displayConta('+')" class="operador">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mudarSinal()">±</button></td>
+                <td><button onclick="displayConta('0')">0</button></td>
+                <td><button onclick="displayConta('.')">.</button></td>
+                <td><button onclick="mostrarResultado()" class="operador">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
