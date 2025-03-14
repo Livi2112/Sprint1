@@ -10,39 +10,39 @@
 <body>
       <div id="corpoCalc">
            <div id="tela">
-               <p id="conta">0</p>
+               <p id="contaDisplay">0</p>
                <h2 id="resultado">0</h2>
            </div>
            <table id="botoes">
                <tr>
                    <td><button onclick="limparDisplay()">CE</button></td>
                    <td><button onclick="apagar()">C</button></td>
-                   <td><button onclick="displayConta('%')">%</button></td>
-                   <td><button onclick="displayConta('/')" class="operador">÷</button></td>
+                   <td><button onclick="op('%')">%</button></td>
+                   <td><button onclick="op('/')" class="operador">÷</button></td>
                </tr>
                <tr>
-                   <td><button onclick="displayConta('7')" >7</button></td>
-                   <td><button onclick="displayConta('8')">8</button></td>
-                   <td><button onclick="displayConta('9')">9</button></td>
-                   <td><button onclick="displayConta('*')" class="operador">x</button></td>
+                   <td><button onclick="num('7')" >7</button></td>
+                   <td><button onclick="num('8')">8</button></td>
+                   <td><button onclick="num('9')">9</button></td>
+                   <td><button onclick="op('*')" class="operador">x</button></td>
                </tr>
                <tr>
-                   <td><button onclick="displayConta('4')">4</button></td>
-                   <td><button onclick="displayConta('5')">5</button></td>
-                   <td><button onclick="displayConta('6')">6</button></td>
-                   <td><button onclick="displayConta('-')" class="operador">-</button></td>
+                   <td><button onclick="num('4')">4</button></td>
+                   <td><button onclick="num('5')">5</button></td>
+                   <td><button onclick="num('6')">6</button></td>
+                   <td><button onclick="op('-')" class="operador">-</button></td>
                </tr>
                <tr>
-                   <td><button onclick="displayConta('1')">1</button></td>
-                   <td><button onclick="displayConta('2')">2</button></td>
-                   <td><button onclick="displayConta('3')">3</button></td>
-                   <td><button onclick="displayConta('+')" class="operador">+</button></td>
+                   <td><button onclick="num('1')">1</button></td>
+                   <td><button onclick="num('2')">2</button></td>
+                   <td><button onclick="num('3')">3</button></td>
+                   <td><button onclick="op('+')" class="operador">+</button></td>
                </tr>
                <tr>
                    <td><button onclick="mudarSinal()">±</button></td>
-                   <td><button onclick="displayConta('0')">0</button></td>
-                   <td><button onclick="displayConta('.')">.</button></td>
-                   <td><button onclick="mostrarResultado()" class="operador">=</button></td>
+                   <td><button onclick="num('0')">0</button></td>
+                   <td><button onclick="op('.')">.</button></td>
+                   <td><button onclick="equ()" class="operador">=</button></td>
                </tr>
            </table>
       </div>
