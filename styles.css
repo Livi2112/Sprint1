@@ -23,6 +23,7 @@ body {
     text-align: right;
     color:rgb(201, 198, 198);
     overflow: hidden;
+    box-shadow: black 3px 3px;
 }
 
 p {
@@ -51,6 +52,7 @@ button {
     font-size: 40px;
     font-weight: bolder;
     margin: 10px;
+    box-shadow: black 3px 3px;
 }
 
 button:hover{
@@ -59,6 +61,7 @@ button:hover{
 
 button:active{
     background-color: rgb(194, 193, 193);
+    box-shadow: black 1px 1px;
 }
 
 .operador {
