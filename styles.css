@@ -22,6 +22,7 @@ body {
     border-radius: 20px;
     text-align: right;
     color:rgb(201, 198, 198);
+    overflow: hidden;
 }
 
 p {
