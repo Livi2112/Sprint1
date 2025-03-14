@@ -2,11 +2,12 @@ function displayConta(input) {
     if (document.getElementById("conta").textContent == 0)
         document.getElementById("conta").textContent = "";
     conta.textContent += input;
+    resultado.textContent = eval(conta.textContent);
 }
 
 function limparDisplay() {
     conta.textContent = 0;
-    resultado.textContent = 0;
+    document.getElementById("resultado").textContent = 0;
 }
 
 function mostrarResultado() {
